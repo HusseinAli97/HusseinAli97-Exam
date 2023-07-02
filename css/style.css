@@ -353,7 +353,7 @@ p {
     background-color: rgba(var(--p-color), .1);
 }
 
-.card-icon {
+#services  .card-icon {
     height: 70px;
     width: 70px;
     margin: 0 auto;
@@ -365,7 +365,7 @@ p {
     background-color: rgba(var(--p-color), .1);
 }
 
-.card-icon:hover {
+#services .card:hover .card-icon {
     background-color: var(--main-color);
     color: white;
 }
