@@ -614,7 +614,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    visibility: 0;
+    visibility: hidden;
     opacity: 0;
     background-color: rgba(var(--white-op), .9);
     transform: translate(-50%, -50%) rotatey(-180deg);
@@ -636,7 +636,9 @@ p {
     width: 94%;
     height: 70%;
     opacity: 1;
+    visibility: visible;
 }
+
 
 @media all and (max-width: 768px) { 
     #team .card .card-body:hover .overlay-txt,
