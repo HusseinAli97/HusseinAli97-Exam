@@ -638,6 +638,53 @@ p {
     opacity: 1;
 }
 
+@media all and (max-width: 768px) { 
+    #team .card .card-body:hover .overlay-txt,
+    #team .card .inner:hover .overlay-txt {
+        height: 73%;
+    }
+    
+    #team .overlay-txt {
+    top: 38%;
+}
+
+}
+
+@media  all and (min-width: 769px) and (max-width: 992px) { 
+    #team .card .card-body:hover .overlay-txt,
+    #team .card .inner:hover .overlay-txt {
+        height: 66%;
+    }
+    
+    #team .overlay-txt {
+    top: 34%;
+}
+}
+
+
+@media all and (min-width: 992px) and (max-width: 1200px) { 
+    #team .card .card-body:hover .overlay-txt,
+    #team .card .inner:hover .overlay-txt {
+        height: 64%;
+    }
+    
+    #team .overlay-txt {
+    top: 33%;
+}
+}
+
+@media all and (min-width: 1201px) and (max-width: 1400px) { 
+    #team .card .card-body:hover .overlay-txt,
+    #team .card .inner:hover .overlay-txt {
+        height: 67%;
+    }
+    
+    #team .overlay-txt {
+    top: 35%;
+}
+}
+
+
 #team .card .card-body:hover .overlay-txt {
     transform: translate(-50%, -50%) rotatey(360deg);
     -webkit-transform: translate(-50%, -50%) rotatey(360deg);
